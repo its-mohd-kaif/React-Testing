@@ -9,7 +9,7 @@ function Counter() {
   };
   // Decrement Handler
   const decreHandler = () => {
-    if (count >= 1) {
+    if (count > 1) {
       setCount((val) => --val);
     }
   };
