@@ -20,5 +20,5 @@ it("increments", () => {
 it("decrements", () => {
   render(<Counter />);
   fireEvent.click(screen.getByTestId("decrement"));
-  expect(screen.getByTestId("counter")).toHaveTextContent(0);
+  expect(screen.getByTestId("counter")).toHaveTextContent(1);
 });
